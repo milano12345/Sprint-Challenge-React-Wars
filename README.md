@@ -24,9 +24,12 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [React is component based. This makes development of reusable code that is easy to test. It is declarative. When changes in data happen React is aware of how to update the changes.] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [React is component based. This makes development of reusable code that is easy to test. It is declarative. When changes in data happen React is aware of how to update the changes.]
 
-- [To think in component terms. Your React codebase is basically just one large pile of big components that call smaller components. ] What does it mean to _think_ in react?
+ What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+- [To think in component terms. Your React codebase is basically just one large pile of big components that call smaller components. ] 
+What does it mean to _think_ in react?
 
 - [ Use state to store the data your current page needs in your controller-view.] Describe state.
 

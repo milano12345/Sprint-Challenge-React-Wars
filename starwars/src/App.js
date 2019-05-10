@@ -5,7 +5,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
+      // name: '',
+      // birth_year: '',
+      // eye_color: '',
+      // height: '',
+      // URL: '',
     };
   }
 
@@ -33,7 +38,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-      </div>
+       {this.state.starwarsChars.map(chars => <div className="newChars"><p> Name: {chars.name}</p> <p>Eye-color: {chars.eye_color}</p><p> Hair-color: {chars.hair_color}</p> <p>Birth Year: {chars.birth_year}</p></div>)}
+       </div>
     );
   }
 }
