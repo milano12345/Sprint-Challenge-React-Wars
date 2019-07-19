@@ -1,7 +1,10 @@
 import React from 'react'
 
 const Card = (props) => {
-    return <div>{props.data.name}</div>
+    return <div>
+        <div>{props.data.name}</div>
+            <div> </div>
+            </div>
 
 }
 
